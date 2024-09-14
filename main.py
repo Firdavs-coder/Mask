@@ -54,6 +54,6 @@ def main(path_to_original_image: str, path_to_painted_image: str, path_to_output
 if __name__ == "__main__":
    main(
         path_to_original_image="original.jpg",
-        path_to_painted_image="mask.jpg",
-        path_to_output_image="result.jpg"
+        path_to_painted_image="painted.jpg",
+        path_to_output_image="mask.jpg"
    )
